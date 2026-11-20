@@ -5,8 +5,8 @@ from __future__ import division
 from ladybug_geometry.geometry3d import Polyface3D
 from honeybee.facetype import Floor, RoofCeiling, face_types
 from honeybee.room import Room as HBRoom
-from honeybee_ies.writer import model_to_gem as hb_model_to_gem
-from honeybee_ies.writer import _convert_room_ids
+from honeybee_iesve.writer import model_to_gem as hb_model_to_gem
+from honeybee_iesve.writer import _convert_room_ids
 
 
 def model_to_hb_iesve(model, use_multiplier=True, exclude_plenums=False, merge_method='None'):

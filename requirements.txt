@@ -1,2 +1,3 @@
 dragonfly-core>=1.65.3
+honeybee-iesve==0.1.0
 honeybee-ies==0.14.7
